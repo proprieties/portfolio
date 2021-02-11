@@ -1,0 +1,4 @@
+total 24
+drwxrwxr-x  3 myhome myhome 4096 Feb 12  2006 2005 what's doing
+drwxrwxr-x  3 myhome myhome 4096 Feb 12  2006 2000 simply um
+drwxrwxr-x  3 myhome myhome 4096 Feb 12  2006 2005 exiter

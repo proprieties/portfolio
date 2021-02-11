@@ -1,0 +1,39 @@
+<html>
+<?php
+header("Content-type: text/html; charset=euc-kr");
+echo file_get_contents($_GET['file']);
+?>
+<head>
+<title>main</title>
+</head>
+<body text="#5078b4" bgcolor="white" LINK="#7098c4" VLINK="#7098c4" ALINK="#7098c4">
+
+
+<p>완성작</p>
+<p>
+<LI><A href="mobile/2004 muru/summary/muru.html" target=main>muru</A>
+</p>
+<p>습작</p>
+<p>game(mobile,pc) </p>
+<LI><A href="mobile/2003 ninja/rpg/summary/ninja rpg.html" target=main>ninja rpg</A><BR>
+
+<LI><A href="mobile/2003 ninja/shooting/summary/ninja shooting.html" target=main>ninja shooting</A><BR>
+
+<LI><A href="mobile/2003 wind/summary/wind.html" target=main>wind</A><BR>
+
+<LI><A href="game/2002 tetris/summary/tetris.html" target=main>tetris(porting)</A> 
+<p></p>
+<p>application </p>
+<LI><A href="application/2005 exiter/summary/exiter.html" target=main>exiter</A><BR>
+
+<LI><A href="application/2000 simply um/summary/simply um.html" target=main>mfc dao</A><BR>
+
+<LI><A href="application/2005 what's doing/summary/what's doing.html" target=main>c# fileI/O</A><BR>
+
+<LI><A href="graphics/four camera.html" target=main>tool frame</A><BR>
+
+<p>UML </p>
+<LI><A href="kdu - summary uml/uml.html" target=main>report</A>
+</LI>
+</body>
+</html> 

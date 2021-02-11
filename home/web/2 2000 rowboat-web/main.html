@@ -1,0 +1,159 @@
+<html>
+
+<head>
+<title> rowboat(CnC++) </title>
+<style type="text/css">
+   A:link { text-decoration:none; }
+   A:visited { text-decoration:none; }
+   A:hover { color:#c0c0c0; text-decoration:underline; }
+  </style>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- // RightClickMenu
+
+function showmenuie5(){
+		var rightedge=document.body.clientWidth-event.clientX
+		var bottomedge=document.body.clientHeight-event.clientY
+		if (rightedge<ie5menu.offsetWidth)
+			ie5menu.style.left=document.body.scrollLeft+event.clientX-ie5menu.offsetWidth
+		else
+			ie5menu.style.left=document.body.scrollLeft+event.clientX
+		if (bottomedge<ie5menu.offsetHeight)
+			ie5menu.style.top=document.body.scrollTop+event.clientY-ie5menu.offsetHeight
+		else
+			ie5menu.style.top=document.body.scrollTop+event.clientY
+		ie5menu.style.visibility="visible"
+		return false
+}
+function hidemenuie5(){
+		ie5menu.style.visibility="hidden"
+}
+function highlightie5(){
+		if (event.srcElement.className=="menuitems"){
+			event.srcElement.style.backgroundColor="highlight"
+			event.srcElement.style.color="white"
+		}
+}
+function lowlightie5(){
+		if (event.srcElement.className=="menuitems"){
+			event.srcElement.style.backgroundColor=""
+			event.srcElement.style.color="black"
+		}
+} 
+function jumptoie5(){
+		if (event.srcElement.className=="menuitems"){
+			if (event.srcElement.url != ''){
+				if (event.srcElement.getAttribute("target")!=null)
+					window.open(event.srcElement.url,event.srcElement.getAttribute("target"))
+				else
+					window.location=event.srcElement.url
+			}
+		}
+}
+// -->
+</SCRIPT>
+<STYLE TYPE='text/css'>
+   .cMenu{
+   position: absolute;
+   visibility:hidden;
+   color:#000000;
+   width:200px;
+   border:2px solid #000000;
+   background-color:#999999;
+   font-size:14px;
+   font-weight:normal;
+   line-height:20px;
+   cursor:default;
+}
+
+.menuitems{
+   padding-left:15px;
+   padding-right:10px;
+}
+</STYLE>
+<STYLE TYPE='text/css'>
+   .cMenu{
+   position: absolute;
+   visibility:hidden;
+   color:#000000;
+   width:200px;
+   border:2px solid #000000;
+   background-color:#999999;
+   font-size:14px;
+   font-weight:normal;
+   line-height:20px;
+   cursor:default;
+}
+
+.menuitems{
+   padding-left:15px;
+   padding-right:10px;
+}
+</STYLE>
+<STYLE TYPE='text/css'>
+   .cMenu{
+   position: absolute;
+   visibility:hidden;
+   cursor: default;
+   font: menutext;
+   width: 165px;
+   background-color: menu;
+   border: 1 solid buttonface;
+   border: 2 outset buttonhighlight;
+}
+
+.menuitems{
+   padding-left:15px;
+   padding-right:10px;
+}
+</STYLE>
+<STYLE TYPE='text/css'>
+   .cMenu{
+   position: absolute;
+   visibility:hidden;
+   color:#000000;
+   width:150px;
+   border:2px solid #000000;
+   background-color:#999999;
+   font-size:14px;
+   font-weight:normal;
+   line-height:20px;
+   cursor:default;
+}
+
+.menuitems{
+   padding-left:15px;
+   padding-right:10px;
+}
+</STYLE>
+</head>
+<body bgcolor=#dcdcdc text=#000000 link=#000000 vlink=#000000 alink=#000000 scroll="no">
+<table border=0 align="center" width=90% >
+  <tr valign="center"> 
+    <td rowspan=1 colspan=1 width=650 valign="center" align="left"><img src="logo.jpg" alt="Logo"></td>
+    <td rowspan=1 colspan=2 width=30% valign="bottom" align="center"><img src="http://rowboat.hihome.com/cgi-bin/Count.cgi?dd=Square0001.gif|ft=0|df=rowboat-hihome-0-1"> 
+  </tr>
+</table>
+<RightClick> <!--[if IE]>
+<div id="ie5menu" class="cMenu" onMouseover="highlightie5()" onMouseout="lowlightie5()" onClick="jumptoie5()">
+<div class="menuitems" url="main.html" target="main">Go Main</div>
+<div class="menuitems" url="">empty 1</div>
+<div class="menuitems" url="">empty 2</div>
+<HR>
+<div class="menuitems" url="http://rowboat.hihome.com/servlets/sunshine.board.AdminFrame?userId=rowboat&siteNum=1&pageNum=0&seq=0">border 1</div>
+<div class="menuitems" url="http://rowboat.hihome.com/new/sunshine.board.List?userId=rowboat&siteNum=1&pageNum=1&seq=1">border 2</div>
+<div class="menuitems" url="http://rowboat.hihome.com/new/sunshine.board.List?userId=rowboat&siteNum=1&pageNum=1&seq=2">border 3</div>
+<HR>
+<div class="menuitems" url="mailto:rowboat@n-top.com">Mail to rowboat</div>
+<![endif]--> 
+<script language="JavaScript">
+<!--
+if (document.all&&window.print){
+	ie5menu.className="cMenu"
+	document.oncontextmenu=showmenuie5
+	document.body.onclick=hidemenuie5
+}
+//-->
+</script>
+</RightClick> 
+</body>
+</html>

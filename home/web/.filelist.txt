@@ -1,0 +1,7 @@
+합계 24
+drwxrwxr-x  3 myhome myhome 4096  2월 24 03:39 6 note-web
+drwxrwxr-x  6 myhome myhome 4096  2월 24 03:39 4 2002-06 jeongkim-web
+drwxrwxr-x  3 myhome myhome 4096  2월 24 03:38 3 2001 cioic-web
+drwxrwxr-x  2 myhome myhome 4096  2월 24 03:38 2 2000 rowboat-web
+drwxrwxr-x  3 myhome myhome 4096  2월 24 03:38 1 1999 Dissection 1, 2-web
+drwxrwxr-x  3 myhome myhome 4096  2월 12 14:15 board
